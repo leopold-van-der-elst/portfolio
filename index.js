@@ -74,7 +74,7 @@ document.getElementById("website3").addEventListener("click", function(){
     document.getElementById("video-modal").style.display = "flex";
     const video = document.createElement("video");
     video.style.width = "350px";
-    video.src = "/images/Wanderlust_demoFL.mp4";
+    video.src = "/public/images/Wanderlust_demoFL.mp4";
     video.autoplay = true;
     video.controls = true;
     document.querySelector(".modal-body").appendChild(video);
