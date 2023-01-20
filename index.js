@@ -7,7 +7,7 @@ document.getElementById("website1").addEventListener("click",function(){
 
 document.getElementById("contactBtn").addEventListener("click",function(){
     const link = document.createElement("a");
-    link.href = "/document/CV-2023.pdf";
+    link.href = "/CV-2023.pdf";
     link.download = "Leopold-van-der-Elst-CV.pdf";
     link.click();
 })
