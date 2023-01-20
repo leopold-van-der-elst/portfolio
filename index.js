@@ -7,7 +7,7 @@ document.getElementById("website1").addEventListener("click",function(){
 
 document.getElementById("contactBtn").addEventListener("click",function(){
     const link = document.createElement("a");
-    link.href = "/public//document/CV-2023.pdf";
+    link.href = "/document/CV-2023.pdf";
     link.download = "Leopold-van-der-Elst-CV.pdf";
     link.click();
 })
@@ -74,7 +74,7 @@ document.getElementById("website3").addEventListener("click", function(){
     document.getElementById("video-modal").style.display = "flex";
     const video = document.createElement("video");
     video.style.width = "350px";
-    video.src = "/public/images/Wanderlust_demoFL.mp4";
+    video.src = "/Wanderlust_demoFL.mp4";
     video.autoplay = true;
     video.controls = true;
     document.querySelector(".modal-body").appendChild(video);
