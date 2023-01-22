@@ -208,15 +208,14 @@
         background-color: transparent;
         margin: auto;
         padding: 20px;
-        width: 80%;
-        height: 80%;
+        width: 240px;
+        height: 600px;
         }
     #close-btn {
             position: absolute;
-            margin-left: 340px;
-            margin-top: -25px;
-            height: 60px;
-            width: 60px;
+            margin-top: -70px;
+            height: 70px;
+            width: 70px;
             color: #ffffff;;
             font-size: 50px;
             font-weight: bold;
@@ -224,7 +223,6 @@
             background-color: transparent;
             background-color: #6E07F3;
             border-radius: 50%;
-            align-items: center;
             }
     #projectImg1{
         margin-top: 30px;
@@ -406,7 +404,7 @@ body{
     color: #fff;
     font-family: 'Europa', sans-serif;
     border-radius: 100px;
-    width: 12vw;
+    width: 200px;
     height: 5vh;
     background-color: #6E07F3;
     font-size: 18px;
